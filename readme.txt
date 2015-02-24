@@ -4,7 +4,7 @@ Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, gravityforms, gravity forms
 Requires at least: 3.7
 Tested up to: 4.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +32,10 @@ You have to buy the Divi Theme and the Gravity Forms Plugin to use this plugin:
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.0.1 =
+
+- Added Hungarian language.
 
 = 1.0.0 =
 
