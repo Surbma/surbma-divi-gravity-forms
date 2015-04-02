@@ -5,7 +5,7 @@ Plugin Name: Surbma - Divi & Gravity Forms
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Divi form styles for Gravity Forms.
 
-Version: 1.1.0
+Version: 1.1.1
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -23,9 +23,9 @@ if ( !defined( 'ABSPATH' ) ) {
 
 // Localization
 function surbma_divi_gravity_forms_init() {
-	load_plugin_textdomain( 'surbma-divi-gravity-forms', false, dirname( plugin_basename( __FILE__ ) . '/languages/' ) );
+	load_plugin_textdomain( 'surbma-divi-gravity-forms', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
-add_action( 'init', 'surbma_divi_gravity_forms_init' );
+add_action( 'plugins_loaded', 'surbma_divi_gravity_forms_init' );
 
 // Enqueue the css file
 function surbma_divi_gravity_forms_enqueue_scripts() {
