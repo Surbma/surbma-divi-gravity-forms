@@ -33,7 +33,6 @@ body .gform_wrapper input[type=password],
 body .gform_wrapper textarea.textarea {
 	background-color: #eee;
 	border: none;
-	width: 100%;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
 	border-radius: 0;
@@ -43,12 +42,6 @@ body .gform_wrapper textarea.textarea {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-}
-
-body .gform_wrapper .top_label input.large,
-body .gform_wrapper .top_label select.large,
-body .gform_wrapper .top_label textarea.textarea {
-	width: 98.5%;
 }
 
 body .gform_wrapper select {
@@ -62,17 +55,25 @@ body .gform_wrapper select {
 	border: none;
 }
 
+body .gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield input[type=radio] {
+	margin-left: 1px;
+}
+
 body .gform_wrapper .top_label input.medium {
 	padding-right: 16px;
 }
 
 body .gform_wrapper input[type=button],
 body .gform_wrapper input[type=submit] {
+	background: transparent;
+	display: block;
 	font-size: 20px;
 	font-weight: 500;
-	padding: 6px 20px;
 	line-height: 1.7em;
-	background: transparent;
+	font-family: inherit;
+	color: inherit;
+	margin: 8px 0 0;
+	padding: 6px 20px;
 	border: 2px solid;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -82,18 +83,16 @@ body .gform_wrapper input[type=submit] {
 	-moz-transition: all 0.2s;
 	-webkit-transition: all 0.2s;
 	transition: all 0.2s;
-	font-family: inherit;
-	display: block;
-	margin: 8px 1.5% 0 0;
-	color: inherit;
 }
 
 body .gform_wrapper input[type=button] {
 	float: left;
 }
 
-body .gform_wrapper input[type=submit] {
+body .gform_wrapper .gform_page_footer .button.gform_next_button,
+body .gform_wrapper .gform_page_footer input[type=submit].button.gform_button {
 	float: right;
+	margin-right: 0;
 }
 
 body .gform_wrapper input[type=button]:hover,
@@ -104,8 +103,8 @@ body .gform_wrapper input[type=submit]:hover {
 }
 
 body .gform_wrapper .gform_fileupload_multifile input[type=button] {
-	float: none;
 	display: inline;
+	float: none;
 	font-size: 14px;
 	margin-left: 5px;
 	padding: 0 10px;
@@ -154,20 +153,22 @@ body .gform_wrapper .top_label li.gfield.gfield_error.gf_right_third {
 	width: 32%;
 }
 
-body .gform_wrapper .gf_progressbar_wrapper {
-	width: 100%;
+body .gform_wrapper .gf_progressbar_wrapper,
+body .gform_wrapper .gsection,
+body .gform_wrapper .gform_page_footer {
+	width: 97.5%;
 }
 
 body .gform_wrapper .gf_progressbar {
 	width: 100%;
 	border: none;
 	-moz-box-shadow: none;
-	-webkit-box-shadow: none; 
-	box-shadow: none; 
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 body .gform_wrapper .gf_progressbar,
-body .gform_wrapper .percentbar_blue {
+body .gform_wrapper .gf_progressbar_percentage {
 	background-size: contain;
 	height: 40px;
 }

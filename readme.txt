@@ -4,20 +4,38 @@ Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, gravityforms, gravity forms
 Requires at least: 3.7
 Tested up to: 4.1
-Stable tag: 1.1.1
+Stable tag: 1.2.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Divi form styles for Gravity Forms.
+Responsive Divi form styles for Gravity Forms.
 
 == Description ==
 
 This plugin adds the same styling for Gravity Forms as Divi Theme has for its own forms. This is a very lightweight plugin with minified css to reduce the loading time as low as possible.
 
+=== Responsive style ===
+
+It also adds responsive styles to Gravity Forms. So you can use complex forms, halves or thirds fields, your form will look great on mobile screens also.
+
 You have to buy the Divi Theme and the Gravity Forms Plugin to use this plugin:
 
-- <a href="http://surbma.com/go/elegantthemes/" target="_blank">Divi by Elegant Themes</a> (affiliate link)
-- <a href="http://surbma.com/go/gravityforms/" target="_blank">Gravity Forms</a> (affiliate link)
+- [Divi by Elegant Themes](http://surbma.com/go/elegantthemes/) (affiliate link)
+- [Gravity Forms](http://surbma.com/go/gravityforms/) (affiliate link)
+
+**Do you want to contribute or help improving this plugin?**
+
+You can find it on GitHub: [https://github.com/Surbma/surbma-divi-gravity-forms](https://github.com/Surbma/surbma-divi-gravity-forms)
+
+**You can find my other plugins and projects on GitHub:**
+
+[https://github.com/Surbma](https://github.com/Surbma)
+
+Please feel free to contribute, help or recommend any new features for my plugins, themes and other projects.
+
+**Do you want to know more about me?**
+
+Visit my webpage: <a href="http://surbma.com/" target="_blank">Surbma.com →</a>[Facebook](https://facebook.com/yoastcom)
 
 == Installation ==
 
@@ -32,6 +50,12 @@ You have to buy the Divi Theme and the Gravity Forms Plugin to use this plugin:
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.2.0 =
+
+- Responsive styles added! :)
+- Minor fixes in css.
+- Changed description.
 
 = 1.1.1 =
 
