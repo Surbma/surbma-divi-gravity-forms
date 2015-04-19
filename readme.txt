@@ -4,7 +4,7 @@ Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, gravityforms, gravity forms
 Requires at least: 3.7
 Tested up to: 4.1
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,12 @@ You have to buy the Divi Theme and the Gravity Forms Plugin to use this plugin:
 
 - [Divi by Elegant Themes](http://surbma.com/go/elegantthemes/) (affiliate link)
 - [Gravity Forms](http://surbma.com/go/gravityforms/) (affiliate link)
+
+**My plugins for Divi theme:**
+
+- [Surbma - Divi & Gravity Forms](https://wordpress.org/plugins/surbma-divi-gravity-forms/)
+- [Surbma - Divi Project Shortcodes](https://wordpress.org/plugins/surbma-divi-project-shortcodes/)
+- [Surbma - Divi Extras](https://wordpress.org/plugins/surbma-divi-extras/)
 
 **Do you want to contribute or help improving this plugin?**
 
@@ -50,6 +56,10 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.2.2 =
+
+- Added links in the plugin description to my other plugins for Divi theme. Give them a try!
 
 = 1.2.1 =
 
