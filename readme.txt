@@ -4,7 +4,7 @@ Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, gravityforms, gravity forms
 Requires at least: 3.7
 Tested up to: 4.1
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Responsive Divi form styles for Gravity Forms.
 
 This plugin adds the same styling for Gravity Forms as Divi Theme has for its own forms. This is a very lightweight plugin with minified css to reduce the loading time as low as possible.
 
-=== Responsive style ===
+= Responsive style =
 
 It also adds responsive styles to Gravity Forms. So you can use complex forms, halves or thirds fields, your form will look great on mobile screens also.
 
@@ -56,6 +56,10 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.2.3 =
+
+- Fixes in description.
 
 = 1.2.2 =
 
