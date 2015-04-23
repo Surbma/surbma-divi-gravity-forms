@@ -3,8 +3,8 @@ Contributors: Surbma
 Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, gravityforms, gravity forms
 Requires at least: 3.7
-Tested up to: 4.1
-Stable tag: 1.2.3
+Tested up to: 4.2
+Stable tag: 1.2.4
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,9 +25,9 @@ You have to buy the Divi Theme and the Gravity Forms Plugin to use this plugin:
 
 **My plugins for Divi theme:**
 
+- [Surbma - Divi Extras](https://wordpress.org/plugins/surbma-divi-extras/)
 - [Surbma - Divi & Gravity Forms](https://wordpress.org/plugins/surbma-divi-gravity-forms/)
 - [Surbma - Divi Project Shortcodes](https://wordpress.org/plugins/surbma-divi-project-shortcodes/)
-- [Surbma - Divi Extras](https://wordpress.org/plugins/surbma-divi-extras/)
 
 **Do you want to contribute or help improving this plugin?**
 
@@ -56,6 +56,11 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.2.4 =
+
+- Tested with WordPress 4.2 version.
+- Fixed date and time fields.
 
 = 1.2.3 =
 
