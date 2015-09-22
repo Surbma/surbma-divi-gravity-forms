@@ -2,9 +2,9 @@
 Contributors: Surbma
 Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, gravityforms, gravity forms
-Requires at least: 3.7
-Tested up to: 4.2
-Stable tag: 1.2.4
+Requires at least: 4.0
+Tested up to: 4.3
+Stable tag: 1.2.5
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,6 +56,10 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.2.5 =
+
+- Fixed responsive styling for Gravity Forms CSS Ready Classes. (Props Guilamu)
 
 = 1.2.4 =
 
