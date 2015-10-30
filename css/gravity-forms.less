@@ -64,7 +64,8 @@ body .gform_wrapper .top_label input.medium {
 }
 
 body .gform_wrapper input[type=button],
-body .gform_wrapper input[type=submit] {
+body .gform_wrapper .gform_footer input.button,
+body .gform_wrapper .gform_footer input[type=submit] {
 	background: transparent;
 	display: block;
 	font-size: 20px;
@@ -90,15 +91,15 @@ body .gform_wrapper input[type=button] {
 }
 
 body .gform_wrapper .gform_page_footer .button.gform_next_button,
-body .gform_wrapper .gform_page_footer input[type=submit].button.gform_button {
+body .gform_wrapper .gform_page_footer input[type=submit].button.gform_button,
+body .gform_wrapper .gform_footer input[type=submit] {
 	float: right;
-	margin-right: 0;
+	margin-right: 1.4em;
 }
 
 body .gform_wrapper input[type=button]:hover,
-body .gform_wrapper input[type=submit]:hover {
-	background: rgba( 0, 0, 0, 0.05 );
-	border: 2px solid transparent;
+body .gform_wrapper .gform_footer input.button:hover,
+body .gform_wrapper .gform_footer input[type=submit]:hover {
 	cursor: pointer;
 }
 
@@ -206,4 +207,3 @@ body .gform_wrapper .gfield_date_month,
 body .gform_wrapper .gfield_date_year {
   width: 4.5em;
 }
-
