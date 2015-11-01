@@ -4,7 +4,7 @@ Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, gravityforms, gravity forms
 Requires at least: 4.0
 Tested up to: 4.3
-Stable tag: 1.3.1
+Stable tag: 1.3.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,6 +56,10 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.3.2 =
+
+- Fixed an undefined variable. (Props Tevya)
 
 = 1.3.1 =
 
