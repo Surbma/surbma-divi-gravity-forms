@@ -5,7 +5,7 @@ Plugin Name: Surbma - Divi & Gravity Forms
 Plugin URI: http://surbma.com/wordpress-plugins/
 Description: Divi form styles for Gravity Forms.
 
-Version: 1.3.2
+Version: 1.3.3
 
 Author: Surbma
 Author URI: http://surbma.com/
@@ -48,7 +48,7 @@ function surbma_divi_gravity_forms_enqueue_scripts() {
 		if ( $all_buttons_font_style !== '' )
 			$button_text_style = et_pb_print_font_style( $all_buttons_font_style );
 		$all_buttons_font = esc_html( et_get_option( 'all_buttons_font', 'inherit' ) );
-		$custom_css = "body .gform_wrapper .gform_footer input.button,body .gform_wrapper .gform_page_footer input.button{background-color:{$all_buttons_bg_color};color:{$accent_color};border-width:{$all_buttons_border_width}px;border-color:{$all_buttons_border_color};border-radius:{$all_buttons_border_radius}px;font-family:{$all_buttons_font};font-size:{$all_buttons_font_size}px;letter-spacing:{$all_buttons_spacing}px;{$button_text_style}}body .gform_wrapper .gform_footer input.button:hover,body .gform_wrapper .gform_page_footer input.button:hover{background-color:{$all_buttons_bg_color_hover};color:{$all_buttons_text_color_hover};border-color:{$all_buttons_border_color_hover};border-radius:{$all_buttons_border_radius_hover}px;letter-spacing:{$all_buttons_spacing_hover}px;}}";
+		$custom_css = "body .gform_wrapper .gform_footer input.button,body .gform_wrapper .gform_page_footer input.button{background-color:{$all_buttons_bg_color};color:{$all_buttons_text_color};border-width:{$all_buttons_border_width}px;border-color:{$all_buttons_border_color};border-radius:{$all_buttons_border_radius}px;font-family:{$all_buttons_font};font-size:{$all_buttons_font_size}px;letter-spacing:{$all_buttons_spacing}px;{$button_text_style}}body .gform_wrapper .gform_footer input.button:hover,body .gform_wrapper .gform_page_footer input.button:hover{background-color:{$all_buttons_bg_color_hover};color:{$all_buttons_text_color_hover};border-color:{$all_buttons_border_color_hover};border-radius:{$all_buttons_border_radius_hover}px;letter-spacing:{$all_buttons_spacing_hover}px;}}";
 		wp_add_inline_style( 'surbma-divi-gravity-forms-styles', $custom_css );
 	}
 }
