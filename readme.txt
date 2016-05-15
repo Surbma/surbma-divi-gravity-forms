@@ -3,7 +3,7 @@ Contributors: Surbma
 Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, gravityforms, gravity forms
 Requires at least: 4.0
-Tested up to: 4.4
+Tested up to: 4.5
 Stable tag: 1.4.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -66,6 +66,7 @@ It is the reverse version of my last name. ;)
 - From now on, this plugin is working with every theme. Not only with Divi, but Extra and all other themes. So if you want to add Divi style to your Gravity Forms, you can do it with any WordPress themes.
 - Fixed "Send Email" button on the "Save and Continue Later" page. (Reported by PthPndr)
 - Fixed Submit button's style, when using multi-page form. (Reported by Tevya)
+- Tested with WordPress 4.5 version.
 
 = 1.3.3 =
 
