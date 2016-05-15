@@ -51,11 +51,21 @@ Visit my webpage: [Surbma.com](http://surbma.com/)
 
 == Frequently Asked Questions ==
 
+= Does it work with Extra theme from Elegant Themes? =
+
+Yes, it is working with Extra. To be honest, it is working with every other WordPress theme.
+
 = What does Surbma mean? =
 
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.4.0 =
+
+- From now on, this plugin is working with every theme. Not only with Divi, but Extra and all other themes. So if you want to add Divi style to your Gravity Forms, you can do it with any WordPress themes.
+- Fixed "Send Email" button on the "Save and Continue Later" page. (Reported by PthPndr)
+- Fixed Submit button's style, when using multi-page form. (Reported by Tevya)
 
 = 1.3.3 =
 

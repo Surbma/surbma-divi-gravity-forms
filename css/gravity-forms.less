@@ -18,6 +18,7 @@ body .gform_wrapper ul.gform_fields {
 body .gform_wrapper .gform_footer,
 body .gform_wrapper .gform_page_footer {
 	overflow: hidden;
+	text-align: right;
 }
 
 body .gform_wrapper .gfield_required {
@@ -30,7 +31,8 @@ body .gform_wrapper input[type=email],
 body .gform_wrapper input[type=tel],
 body .gform_wrapper input[type=number],
 body .gform_wrapper input[type=password],
-body .gform_wrapper textarea.textarea {
+body .gform_wrapper textarea.textarea,
+body div.form_saved_message div.form_saved_message_emailform form input[type=text] {
 	background-color: #eee;
 	border: none;
 	-moz-border-radius: 0;
@@ -42,6 +44,8 @@ body .gform_wrapper textarea.textarea {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	line-height: initial;
+    height: initial;
 }
 
 body .gform_wrapper select {
@@ -63,15 +67,13 @@ body .gform_wrapper .top_label input.medium {
 	padding-right: 16px;
 }
 
-body .gform_wrapper .gform_footer {
-    width: 97.5%;
-}
-
 body .gform_wrapper input[type=button],
 body .gform_wrapper .gform_footer input.button,
-body .gform_wrapper .gform_footer input[type=submit] {
+body .gform_wrapper .gform_footer input[type=submit],
+body .gform_wrapper .gform_page_footer input.button,
+body .gform_wrapper .gform_page_footer input[type=submit],
+body div.form_saved_message div.form_saved_message_emailform form input[type=submit] {
 	background: transparent;
-	display: block;
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 1.7em;
@@ -90,19 +92,27 @@ body .gform_wrapper .gform_footer input[type=submit] {
 	transition: all 0.2s;
 }
 
+body div.form_saved_message div.form_saved_message_emailform form input[type=submit] {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 body .gform_wrapper input[type=button] {
-	float: left;
+	// float: left;
 }
 
 body .gform_wrapper .gform_page_footer .button.gform_next_button,
-body .gform_wrapper .gform_page_footer input[type=submit].button.gform_button,
+body .gform_wrapper .gform_page_footer .button.gform_button,
 body .gform_wrapper .gform_footer input[type=submit] {
-	float: right;
+	margin-right: 0;
 }
 
 body .gform_wrapper input[type=button]:hover,
 body .gform_wrapper .gform_footer input.button:hover,
-body .gform_wrapper .gform_footer input[type=submit]:hover {
+body .gform_wrapper .gform_footer input[type=submit]:hover,
+body .gform_wrapper .gform_page_footer input.button:hover,
+body .gform_wrapper .gform_page_footer input[type=submit]:hover,
+body div.form_saved_message div.form_saved_message_emailform form input[type=submit]:hover {
 	cursor: pointer;
 }
 
@@ -159,6 +169,7 @@ body .gform_wrapper .top_label li.gfield.gfield_error.gf_right_third {
 
 body .gform_wrapper .gf_progressbar_wrapper,
 body .gform_wrapper .gsection,
+body .gform_wrapper .gform_footer,
 body .gform_wrapper .gform_page_footer {
 	width: 97.5%;
 }
@@ -209,4 +220,9 @@ body .gform_wrapper .gfield_date_day,
 body .gform_wrapper .gfield_date_month,
 body .gform_wrapper .gfield_date_year {
   width: 4.5em;
+}
+
+body .gform_wrapper .gform_footer a.gform_save_link,
+body .gform_wrapper .gform_page_footer a.gform_save_link {
+	float: left;
 }
