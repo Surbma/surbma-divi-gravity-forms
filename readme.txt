@@ -1,10 +1,10 @@
 === Surbma - Divi & Gravity Forms ===
 Contributors: Surbma
 Donate link: http://surbma.com/wordpress-plugins/
-Tags: divi, divi theme, gravityforms, gravity forms
+Tags: divi, divi theme, extra, extra theme, elegant themes, elegantthemes, gravityforms, gravity forms
 Requires at least: 4.0
-Tested up to: 4.5
-Stable tag: 1.5.1
+Tested up to: 4.6
+Stable tag: 1.5.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,11 @@ Yes, it is working with Extra. To be honest, it is working with every other Word
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.5.2 =
+
+- Gravity Forms 2.0.7.14 version changed some CSS styles, that are affected this plugin's styling. This is now fixed.
+- Tested with WordPress 4.6 version.
 
 = 1.5.1 =
 
