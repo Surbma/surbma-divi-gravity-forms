@@ -3,8 +3,8 @@ Contributors: Surbma
 Donate link: http://surbma.com/wordpress-plugins/
 Tags: divi, divi theme, extra, extra theme, elegant themes, elegantthemes, gravityforms, gravity forms
 Requires at least: 4.0
-Tested up to: 4.6
-Stable tag: 1.5.3
+Tested up to: 4.7
+Stable tag: 1.5.4
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +60,11 @@ Yes, it is working with Extra. To be honest, it is working with every other Word
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.5.4 =
+
+- Removed some unnecessary css.
+- Tested with WordPress 4.7 version.
 
 = 1.5.3 =
 
