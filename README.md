@@ -1,4 +1,4 @@
-Surbma - Divi & Gravity Forms
-==================
+Surbma | Divi & Gravity Forms
+=============================
 
 Divi form styles for Gravity Forms.
