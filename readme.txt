@@ -1,10 +1,10 @@
-=== Surbma - Divi & Gravity Forms ===
+=== Surbma | Divi & Gravity Forms ===
 Contributors: Surbma
-Donate link: http://surbma.com/wordpress-plugins/
-Tags: divi, divi theme, extra, extra theme, elegant themes, elegantthemes, gravityforms, gravity forms
+Donate link: https://surbma.com/wordpress-plugins/
+Tags: divi, gravityforms, gravity forms
 Requires at least: 4.0
-Tested up to: 4.8
-Stable tag: 1.5.7
+Tested up to: 5.0
+Stable tag: 1.5.8
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,8 +20,8 @@ It also adds responsive styles to Gravity Forms. So you can use complex forms, h
 
 You have to buy the Divi Theme and the Gravity Forms Plugin to use this plugin:
 
-- [Divi by Elegant Themes](http://surbma.com/go/elegantthemes/) (affiliate link)
-- [Gravity Forms](http://surbma.com/go/gravityforms/) (affiliate link)
+- [Divi by Elegant Themes](https://surbma.com/go/elegantthemes/) (affiliate link)
+- [Gravity Forms](https://surbma.com/go/gravityforms/) (affiliate link)
 
 **My plugins for Divi theme:**
 
@@ -41,12 +41,12 @@ Please feel free to contribute, help or recommend any new features for my plugin
 
 **Do you want to know more about me?**
 
-Visit my webpage: [Surbma.com](http://surbma.com/)
+Visit my webpage: [Surbma.com](https://surbma.com/)
 
 == Installation ==
 
 1. Upload the `surbma-divi-gravity-forms` folder to the `/wp-content/plugins/` directory.
-1. Activate the Surbma - Divi & Gravity Forms plugin through the 'Plugins' menu in WordPress.
+1. Activate the Surbma | Divi & Gravity Forms plugin through the 'Plugins' menu in WordPress.
 1. That's it.
 
 == Frequently Asked Questions ==
@@ -60,6 +60,11 @@ Yes, it is working with Extra. To be honest, it is working with every other Word
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.5.8 =
+
+- Minor changes in description.
+- Tested with WordPress 5.0 version.
 
 = 1.5.7 =
 
