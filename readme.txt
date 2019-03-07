@@ -3,8 +3,9 @@ Contributors: Surbma
 Donate link: https://surbma.com/wordpress-plugins/
 Tags: divi, gravityforms, gravity forms
 Requires at least: 4.0
-Tested up to: 5.0
-Stable tag: 1.5.8
+Tested up to: 5.1
+Stable tag: 1.6
+Requires PHP: 5.6
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -60,6 +61,14 @@ Yes, it is working with Extra. To be honest, it is working with every other Word
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.6 =
+
+- FIX - Style fixes for footer widgets.
+- Tested with WordPress 5.1 version.
+- Tested with Divi 3.19 version.
+- Tested with Gravity Forms 2.4 version.
+- Simple versioning.
 
 = 1.5.8 =
 
