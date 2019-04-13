@@ -3,8 +3,8 @@ Contributors: Surbma
 Donate link: https://surbma.com/wordpress-plugins/
 Tags: divi, gravityforms, gravity forms
 Requires at least: 4.0
-Tested up to: 5.1
-Stable tag: 1.6
+Tested up to: 5.2
+Stable tag: 1.7
 Requires PHP: 5.6
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -61,6 +61,13 @@ Yes, it is working with Extra. To be honest, it is working with every other Word
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 1.7 =
+
+- FIX - Fields with hidden labels corrected, if fields have more columns.
+- FIX - Textarea field fix.
+- Tested with WordPress 5.2 version.
+- Tested with Divi 3.21 version.
 
 = 1.6 =
 
