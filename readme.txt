@@ -4,7 +4,7 @@ Donate link: https://surbma.com/donate/
 Tags: divi, gravityforms, gravity forms
 Requires at least: 5.1
 Tested up to: 5.3
-Stable tag: 2.0
+Stable tag: 2.1
 Requires PHP: 7.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -61,6 +61,12 @@ Yes, it is working with Extra. To be honest, it is working with every other Word
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 2.1 =
+
+Release date: 2020-01-08
+
+- FIX - Missed version number dump.
 
 = 2.0 =
 
