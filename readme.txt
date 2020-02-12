@@ -4,7 +4,7 @@ Donate link: https://surbma.com/donate/
 Tags: divi, gravityforms, gravity forms
 Requires at least: 5.1
 Tested up to: 5.3
-Stable tag: 2.1
+Stable tag: 2.2
 Requires PHP: 7.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -26,9 +26,11 @@ You have to buy the Divi Theme and the Gravity Forms Plugin to use this plugin:
 
 **My plugins for Divi theme:**
 
-- [Surbma - Divi Extras](https://wordpress.org/plugins/surbma-divi-extras/)
-- [Surbma - Divi Lightbox](https://wordpress.org/plugins/surbma-divi-lightbox/)
-- [Surbma - Divi Project Shortcodes](https://wordpress.org/plugins/surbma-divi-project-shortcodes/)
+- [Surbma | Divi & Gravity Forms](https://wordpress.org/plugins/surbma-divi-gravity-forms/)
+- [Surbma | Divi Extras](https://wordpress.org/plugins/surbma-divi-extras/)
+- [Surbma | Divi Lightbox](https://wordpress.org/plugins/surbma-divi-lightbox/)
+- [Surbma | Divi Project Shortcodes](https://wordpress.org/plugins/surbma-divi-project-shortcodes/)
+- [Surbma | Divi Remove Project CPT](https://wordpress.org/plugins/surbma-divi-remove-project-cpt/)
 
 **Do you want to contribute or help improving this plugin?**
 
@@ -62,15 +64,27 @@ It is the reverse version of my last name. ;)
 
 == Changelog ==
 
+= 2.2 =
+
+Release date: 2020-02-12
+
+FIXES
+
+- Fixed style for texarea with hidden label.
+
+OTHER
+
+- Fixed plugin names and links in description.
+
 = 2.1 =
 
-Release date: 2020-01-08
+Release date: 2020-02-10
 
 - FIX - Missed version number dump.
 
 = 2.0 =
 
-Release date: 2020-01-08
+Release date: 2020-02-10
 
 - TWEAK - Tested with WordPress 5.3 version.
 - TWEAK - Updated to use a new way to deploy it to wp.org repo.
