@@ -2,8 +2,8 @@
 Contributors: Surbma, CherryPickStudios
 Donate link: https://surbma.com/donate/
 Tags: divi, gravityforms, gravity forms
-Requires at least: 5.1
-Tested up to: 5.3
+Requires at least: 5.3
+Tested up to: 5.5
 Stable tag: 2.2
 Requires PHP: 7.0
 License: GPLv2
