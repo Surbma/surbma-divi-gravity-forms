@@ -15,20 +15,30 @@ Responsive Divi form styles for Gravity Forms.
 
 >TESTED WITH GRAVITY FORMS 2.5 & SUPPORT FOR LEGACY MARKUP! YES, REALLY! :)
 
-This plugin adds the same styling for Gravity Forms as Divi Theme has for its own forms. This is a very lightweight plugin with minified css to reduce the loading time as low as possible. The plugin has full support for the new GF 2.5 markup and still supports previous versions or the legacy markup. So don't panic, you can use this plugin for all Gravity Forms versions. But it is recommended to use the new version with the new markup!
+This plugin adds the same styling for Gravity Forms as Divi Theme has for its own forms. This is a very lightweight plugin with minified css to reduce the loading time as low as possible.
+
+The plugin has full support for the new GF 2.5 markup and still supports previous versions or the legacy markup. So don't panic, you can use this plugin for all Gravity Forms versions. But it is recommended to use the new version with the new markup!
 
 Gravity Forms fields and buttons are inherit Divi settings, so you can set the buttons look and feel.
 
 There is NO OPTIONS OR SETTINGS PAGE for this plugin! It just works after activation. Divi settings may modify the look of the forms.
 
-= Responsive style =
+### Responsive style for legacy markup
 
-It also adds responsive styles to Gravity Forms. So you can use complex forms, halves or thirds fields, your form will look great on mobile screens also.
+If you didn't upgrade to GF 2.5 or still use legacy markup, the plugin adds responsive styles to your forms. So you can use complex forms, halves or thirds fields, your form will look great on mobile screens also.
+
+### Support for Extra by Elegant Themes
+
+The plugin supports the Extra theme also, created by Elegant Themes. So you can use it to style your forms even with Extra theme.
+
+### Requirements
 
 You have to buy the Divi Theme and the Gravity Forms Plugin to use this plugin:
 
 - [Divi by Elegant Themes](https://surbma.com/go/elegantthemes/) (affiliate link)
 - [Gravity Forms](https://surbma.com/go/gravityforms/) (affiliate link)
+
+### Info
 
 **My plugins for Divi theme:**
 
