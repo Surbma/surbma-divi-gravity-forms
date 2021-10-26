@@ -1,0 +1,41 @@
+body .gform_wrapper.gform_legacy_markup_wrapper ul.gform_fields {
+	display: block;
+	list-style-type: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: visible;
+}
+
+body .gform_wrapper.gform_legacy_markup_wrapper li.gfield.gfield_error,
+body .gform_wrapper.gform_legacy_markup_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+	background-color: transparent;
+	margin-bottom: 0 !important;
+	padding: 0 !important;
+	border: none;
+}
+
+body .gform_wrapper.gform_legacy_markup_wrapper .gfield_date_year {
+	margin-right: 0.5rem;
+}
+
+body .gform_wrapper.gform_legacy_markup_wrapper .gfield_time_hour i {
+	margin: 0 0 0 4px;
+    padding: 16px 0;
+    line-height: 1;
+}
+
+#footer-widgets .footer-widget .gform_wrapper.gform_legacy_markup_wrapper li:before {
+	display: none;
+}
+
+#footer-widgets .footer-widget .gform_wrapper.gform_legacy_markup_wrapper li.gfield {
+	padding-left: 0;
+}
+
+@media (min-width: 641px) {
+
+	body .gform_wrapper.gform_legacy_markup_wrapper .gform_body {
+		width: ~"calc(100% + 16px)";
+	}
+
+}

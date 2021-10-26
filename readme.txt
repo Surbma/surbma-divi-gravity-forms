@@ -3,8 +3,8 @@ Contributors: Surbma, CherryPickStudios
 Donate link: https://surbma.com/donate/
 Tags: divi, gravityforms, gravity forms
 Requires at least: 5.3
-Tested up to: 5.7
-Stable tag: 3.0
+Tested up to: 5.8
+Stable tag: 4.0
 Requires PHP: 7.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,13 +13,13 @@ Responsive Divi form styles for Gravity Forms.
 
 == Description ==
 
->TESTED WITH GRAVITY FORMS 2.5!
+>TESTED WITH GRAVITY FORMS 2.5 & SUPPORT FOR LEGACY MARKUP! YES, REALLY! :)
 
-This plugin adds the same styling for Gravity Forms as Divi Theme has for its own forms. This is a very lightweight plugin with minified css to reduce the loading time as low as possible.
+This plugin adds the same styling for Gravity Forms as Divi Theme has for its own forms. This is a very lightweight plugin with minified css to reduce the loading time as low as possible. The plugin has full support for the new GF 2.5 markup and still supports previous versions or the legacy markup. So don't panic, you can use this plugin for all Gravity Forms versions. But it is recommended to use the new version with the new markup!
 
 Gravity Forms fields and buttons are inherit Divi settings, so you can set the buttons look and feel.
 
-There is no options or settings page for this plugin! It just works after activation. Divi settings may modify the look of the forms.
+There is NO OPTIONS OR SETTINGS PAGE for this plugin! It just works after activation. Divi settings may modify the look of the forms.
 
 = Responsive style =
 
@@ -69,6 +69,27 @@ Yes, it is working with Extra. To be honest, it is working with every other Word
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 4.0 =
+
+Release date: 2021-10-26
+
+ENHANCEMENTS
+
+- Full support for new GF 2.5 markup.
+- Still support for legacy markup!
+
+FIXED
+
+- New markup main error message fix.
+- New markup error fields fix for input fields.
+- Fixes for Date & Time fields for new markup.
+
+OTHER
+
+- Tested with WordPress 5.8 version.
+- Tested with Divi 4.11 version.
+- Tested with Gravity Forms 2.5 version.
 
 = 3.0 =
 
