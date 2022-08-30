@@ -3,8 +3,8 @@ Contributors: Surbma, CherryPickStudios
 Donate link: https://surbma.com/donate/
 Tags: divi, gravityforms, gravity forms
 Requires at least: 5.3
-Tested up to: 5.8
-Stable tag: 4.1
+Tested up to: 6.0
+Stable tag: 5.0
 Requires PHP: 7.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,11 +13,11 @@ Responsive Divi form styles for Gravity Forms.
 
 == Description ==
 
->TESTED WITH GRAVITY FORMS 2.5 & SUPPORT FOR LEGACY MARKUP! YES, REALLY! :)
+>TESTED WITH GRAVITY FORMS 2.6 & SUPPORT FOR LEGACY MARKUP! YES, REALLY! :)
 
 This plugin adds the same styling for Gravity Forms as Divi Theme has for its own forms. This is a very lightweight plugin with minified css to reduce the loading time as low as possible.
 
-The plugin has full support for the new GF 2.5 markup and still supports previous versions or the legacy markup. So don't panic, you can use this plugin for all Gravity Forms versions. But it is recommended to use the new version with the new markup!
+The plugin has full support for the new GF 2.5 markup and the 2.6 inline button feature, it even supports previous versions or the legacy markup. So don't panic, you can use this plugin for all Gravity Forms versions. But it is recommended to use the new version with the new markup!
 
 Gravity Forms fields and buttons are inherit Divi settings, so you can set the buttons look and feel.
 
@@ -79,6 +79,14 @@ Yes, it is working with Extra. To be honest, it is working with every other Word
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 5.0 =
+
+Release date: 2022-08-30
+
+ENHANCEMENTS
+
+- Support for the new inline button feature, released in Gravity Forms 2.6 version.
 
 = 4.1 =
 

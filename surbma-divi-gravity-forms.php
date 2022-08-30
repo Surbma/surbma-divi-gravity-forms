@@ -5,7 +5,7 @@ Plugin Name: Surbma | Divi & Gravity Forms
 Plugin URI: https://surbma.com/wordpress-plugins/
 Description: Divi form styles for Gravity Forms.
 
-Version: 4.1
+Version: 5.0
 
 Author: Surbma
 Author URI: https://surbma.com/
@@ -108,7 +108,7 @@ add_action( 'wp_enqueue_scripts', function() {
 			$all_buttons_font = sanitize_text_field( et_builder_get_font_family( $all_buttons_font ) );
 		}
 
-		$custom_css = "body .gform_wrapper .gform_footer input.button,body .gform_wrapper .gform_page_footer input.button,body div.form_saved_message div.form_saved_message_emailform form input[type=submit]{background-color:{$all_buttons_bg_color};color:{$all_buttons_text_color};border-width:{$all_buttons_border_width}px;border-color:{$all_buttons_border_color};border-radius:{$all_buttons_border_radius}px;{$button_font_style}{$all_buttons_font}font-size:{$all_buttons_font_size}px;letter-spacing:{$all_buttons_spacing}px;}body .gform_wrapper .gform_footer input.button:hover,body .gform_wrapper .gform_page_footer input.button:hover,body div.form_saved_message div.form_saved_message_emailform form input[type=submit]:hover{background-color:{$all_buttons_bg_color_hover};color:{$all_buttons_text_color_hover};border-color:{$all_buttons_border_color_hover};border-radius:{$all_buttons_border_radius_hover}px;letter-spacing:{$all_buttons_spacing_hover}px;}";
+		$custom_css = "body .gform_wrapper #field_submit input,body .gform_wrapper .gform_footer input.button,body .gform_wrapper .gform_page_footer input.button,body div.form_saved_message div.form_saved_message_emailform form input[type=submit]{background-color:{$all_buttons_bg_color};color:{$all_buttons_text_color};border-width:{$all_buttons_border_width}px;border-color:{$all_buttons_border_color};border-radius:{$all_buttons_border_radius}px;{$button_font_style}{$all_buttons_font}font-size:{$all_buttons_font_size}px;letter-spacing:{$all_buttons_spacing}px;}body .gform_wrapper #field_submit input:hover,body .gform_wrapper .gform_footer input.button:hover,body .gform_wrapper .gform_page_footer input.button:hover,body div.form_saved_message div.form_saved_message_emailform form input[type=submit]:hover{background-color:{$all_buttons_bg_color_hover};color:{$all_buttons_text_color_hover};border-color:{$all_buttons_border_color_hover};border-radius:{$all_buttons_border_radius_hover}px;letter-spacing:{$all_buttons_spacing_hover}px;}";
 		wp_add_inline_style( 'surbma-divi-gravity-forms-styles', $custom_css );
 	}
 } );
