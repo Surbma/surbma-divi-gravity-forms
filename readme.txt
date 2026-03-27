@@ -3,9 +3,9 @@ Contributors: Surbma, CherryPickStudios
 Donate link: https://surbma.com/donate/
 Tags: divi, gravityforms, gravity forms
 Requires at least: 5.3
-Tested up to: 6.2
-Stable tag: 5.1
-Requires PHP: 7.0
+Tested up to: 6.9
+Stable tag: 5.2
+Requires PHP: 7.4
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -79,6 +79,13 @@ Yes, it is working with Extra. To be honest, it is working with every other Word
 It is the reverse version of my last name. ;)
 
 == Changelog ==
+
+= 5.2 =
+
+Release date: 2026-03-27
+
+- TWEAK - Updated minimum PHP version requirement to 7.4.
+- TWEAK - Tested with WordPress 6.9 version.
 
 = 5.1 =
 
