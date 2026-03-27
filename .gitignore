@@ -1,1 +1,6 @@
 *codekit*
+vendor
+composer.lock
+.phpunit.cache
+coverage-html
+coverage.xml
